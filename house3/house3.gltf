@@ -1,0 +1,207 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "Open Asset Import Library (assimp v5.4.0)"
+    },
+    "extensionsUsed": [
+        "KHR_materials_volume",
+        "FB_ngon_encoding"
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 48986,
+            "type": "VEC3",
+            "max": [
+                0.16354379057884216,
+                0.1641920804977417,
+                0.2317383587360382
+            ],
+            "min": [
+                -0.1269807070493698,
+                -0.14321304857730865,
+                -0.22517424821853638
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 48986,
+            "type": "VEC3",
+            "max": [
+                0.9999971389770508,
+                0.9999920129776001,
+                0.9999889135360718
+            ],
+            "min": [
+                -0.9999986886978149,
+                -0.9999970197677612,
+                -0.9999979734420776
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 48986,
+            "type": "VEC2",
+            "max": [
+                0.9960399270057678,
+                0.9960399866104126
+            ],
+            "min": [
+                0.003959923982620239,
+                0.00411909818649292
+            ]
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 147891,
+            "type": "SCALAR",
+            "max": [
+                48985
+            ],
+            "min": [
+                0
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 2159116,
+            "uri": "house3_0.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 587832,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 587832,
+            "byteLength": 587832,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1175664,
+            "byteLength": 391888,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1567552,
+            "byteLength": 591564,
+            "target": 34963
+        }
+    ],
+    "images": [
+        {
+            "uri": "textures/image_1.png"
+        },
+        {
+            "uri": "textures/image_0.png"
+        }
+    ],
+    "materials": [
+        {
+            "name": "Material_0.001",
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicRoughnessTexture": {
+                    "index": 1
+                },
+                "metallicFactor": 0.800000011920929
+            },
+            "doubleSided": true
+        }
+    ],
+    "meshes": [
+        {
+            "name": "meshes[0]",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 0,
+                    "indices": 3,
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "house3",
+            "children": [
+                1
+            ]
+        },
+        {
+            "name": "high_poly001",
+            "matrix": [
+                232.38706970214844,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                232.38706970214844,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                232.38706970214844,
+                0.0,
+                0.0,
+                38.69024658203125,
+                0.0,
+                1.0
+            ],
+            "mesh": 0,
+            "extras": {
+                "name": "high_poly.001"
+            }
+        }
+    ],
+    "samplers": [
+        {
+            "magFilter": 9729,
+            "minFilter": 9987
+        },
+        {
+            "magFilter": 9729,
+            "minFilter": 9987
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "textures": [
+        {
+            "source": 0,
+            "sampler": 0
+        },
+        {
+            "source": 1,
+            "sampler": 1
+        }
+    ],
+    "scene": 0
+}
